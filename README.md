@@ -44,7 +44,7 @@ Write a second swap function using a reference (i.e., `int&`) as the argument ty
 Write CppUnitLite tests to verify correct behavior of both functions.
 
 ## Problem 2: Factorial
-Factorial: Write a function that returns the factorial of its single int argument. Declare the function constexpr. 
+Factorial: Write a function that returns the factorial of its single `int` argument. Declare the function `constexpr`. 
 
 Add comments in your unit test to specify an example where the factorial result is determined at compile-time, and another where the factorial result is determined at run time. 
 

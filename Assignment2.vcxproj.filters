@@ -15,28 +15,28 @@
     <Filter Include="CppUnitLite\CppUnitLite source files">
       <UniqueIdentifier>{ddac0c46-4fa5-4678-957a-7876bec7dc9a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CppUnitLite\CppUnitLite header files">
+    <Filter Include="Header Files\CppUnitLite header files">
       <UniqueIdentifier>{87be49c4-2e6e-41db-ac99-0fff778059f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\CppUnitLite\Failure.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
     <ClInclude Include="include\CppUnitLite\Test.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
     <ClInclude Include="include\CppUnitLite\TestHarness.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
     <ClInclude Include="include\CppUnitLite\TestRegistry.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
     <ClInclude Include="include\CppUnitLite\TestResult.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
     <ClInclude Include="include\CppUnitLite\WFailure.h">
-      <Filter>CppUnitLite\CppUnitLite header files</Filter>
+      <Filter>Header Files\CppUnitLite header files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -58,8 +58,23 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="XxxTest.cpp">
+    <ClCompile Include="Problem4_Cat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem2_Factorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem3_MonthTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem5_ParseInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem1_Swap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
